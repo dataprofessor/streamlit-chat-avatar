@@ -8,6 +8,13 @@ st.warning('URL full path')
 with st.chat_message('assistant', avatar='https://raw.githubusercontent.com/dataprofessor/streamlit-chat-avatar/master/bot-icon.png'):
   st.write('Hello world!')
 
+st.warning('URL relative path')
+with st.chat_message('assistant', avatar='bot-icon.png'):
+  st.write('Hello world!')
+
+st.warning('URL relative path 2')
+with st.chat_message('assistant', avatar='/~/+/bot-icon.png'):
+  st.write('Hello world!')
 
 
 # Icon Credit
