@@ -13,7 +13,7 @@ with st.chat_message('assistant', avatar='bot-icon.png'):
   st.write('Hello world!')
 
 st.warning('URL relative path 2')
-with st.chat_message('assistant', avatar='/~/+/bot-icon.png'):
+with st.chat_message('assistant', avatar='./bot-icon.png'):
   st.write('Hello world!')
 
 
